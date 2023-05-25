@@ -6,7 +6,7 @@ The initial assignment was created partially in collaboration with other student
 
 Here is the link to the GitHub repository containing the code for this assignment: https://github.com/keresztalina/cds_lang_2
 
-## 2.2. Assignment description by Ross
+## Assignment description by Ross
 *(NB! This description has been edited for brevity. Find the full instructions in ```README_rdkm.md```.)*
 
 This assignment is about using ```scikit-learn``` to train simple (binary) classification models on text data. For this assignment, we'll continue to use the Fake News Dataset that we've been working on in class.
@@ -29,6 +29,7 @@ This code was written and executed in the UCloud application's Coder Python inte
 2. Open a terminal and navigate into the ```/cds_lang_2``` folder. Run the following lines in order to install the necessary packages and load the required language model:
         
         pip install --upgrade pip
+        python -m spacy download en_core_web_md
         python3 -m pip install -r requirements.txt
 
 ### Run the script.
