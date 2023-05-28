@@ -26,10 +26,9 @@ This code was written and executed in the UCloud application's Coder Python inte
 
 ### Installations
 1. Clone this repository somewhere on your device. The data is already contained within the ```/cds_lang_2/in``` folder.
-2. Open a terminal and navigate into the ```/cds_lang_2``` folder. Run the following lines in order to install the necessary packages and load the required language model:
+2. Open a terminal and navigate into the ```/cds_lang_2``` folder. Run the following lines in order to install the necessary packages:
         
         pip install --upgrade pip
-        python -m spacy download en_core_web_md
         python3 -m pip install -r requirements.txt
 
 ### Run the script.
